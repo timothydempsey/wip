@@ -71,6 +71,9 @@ p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
+		font-family: 'Karla';
+		margin: 0 auto;
+		max-width:768px;
 }
 
 h1 {
