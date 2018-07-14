@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
-import painting from './gipsy.jpg';
+import painting from './nyack-life-1-dog.jpg';
 import './App.css';
 //import Footer from './Footer.js'
 
