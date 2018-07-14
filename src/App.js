@@ -31,6 +31,7 @@ class App extends Component {
         <img src={sketch} className="heroImage" alt="Sketch" />
 
         </div>
+        Updated: 
 </div>
     );
   }
