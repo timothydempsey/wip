@@ -157,7 +157,8 @@ div#socialMedia {
 	display:none !important; /* hack, quick way to de-angular hamburger icon */
 }
 
-#socialMedia > a > i {
+#socialMedia > a {
+	color:#FFFFFF;
 	padding:0.85em;
 }
 

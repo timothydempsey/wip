@@ -3,6 +3,13 @@ import React, { Component } from 'react';
 import painting from './nyack-life-1-dog.jpg';
 import sketch from './nyack-homes-1-sketch.jpg';
 import './App.css';
+import Facebook from 'react-icons/lib/fa/facebook';
+import Twitter from 'react-icons/lib/fa/twitter';
+import Linkedin from 'react-icons/lib/fa/linkedin';
+import Pinterest from 'react-icons/lib/fa/pinterest-square';
+import Instagram from 'react-icons/lib/fa/instagram';
+import Email from 'react-icons/lib/fa/envelope';
+
 //import Footer from './Footer.js'
 
 class App extends Component {
@@ -12,6 +19,26 @@ class App extends Component {
         <header className="App-header">
         <h1>DEMPSEYSTUDIO</h1>
             <h2 className="tagline">Work(s) In Progress</h2>
+            <div id="socialMedia">
+              <a href="https://www.facebook.com/dempseystudio" target="_blank">
+                <Facebook />
+              </a>
+              <a href="https://twitter.com/DempseyStudio" target="_blank">
+                <Twitter />
+              </a>
+              <a href="https://www.linkedin.com/in/timothydempsey/" target="_blank">
+                <Linkedin />
+              </a>
+              <a href="https://www.pinterest.com/dempseystudio/" target="_blank">
+                <Pinterest />
+              </a>
+              <a href="https://www.instagram.com/timothyadempsey/" target="_blank">
+                <Instagram />
+              </a>
+              <a href="mailto:tim@dempseystudio.com">
+                <Email />
+              </a>
+            </div>
         </header>
           <div>
           <h3>A Boy and his Dog</h3>
