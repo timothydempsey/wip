@@ -20,19 +20,19 @@ class App extends Component {
         <h1>DEMPSEYSTUDIO</h1>
             <h2 className="tagline">Work(s) In Progress</h2>
             <div id="socialMedia">
-              <a href="https://www.facebook.com/dempseystudio" target="_blank">
+              <a href="https://www.facebook.com/dempseystudio" target="_blank" rel="noopener noreferrer">
                 <Facebook />
               </a>
-              <a href="https://twitter.com/DempseyStudio" target="_blank">
+              <a href="https://twitter.com/DempseyStudio" target="_blank" rel="noopener noreferrer">
                 <Twitter />
               </a>
-              <a href="https://www.linkedin.com/in/timothydempsey/" target="_blank">
+              <a href="https://www.linkedin.com/in/timothydempsey/" target="_blank" rel="noopener noreferrer">
                 <Linkedin />
               </a>
-              <a href="https://www.pinterest.com/dempseystudio/" target="_blank">
+              <a href="https://www.pinterest.com/dempseystudio/" target="_blank" rel="noopener noreferrer">
                 <Pinterest />
               </a>
-              <a href="https://www.instagram.com/timothyadempsey/" target="_blank">
+              <a href="https://www.instagram.com/timothyadempsey/" target="_blank" rel="noopener noreferrer">
                 <Instagram />
               </a>
               <a href="mailto:tim@dempseystudio.com">
