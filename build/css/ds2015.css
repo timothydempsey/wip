@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document Custom Dempseystudio 2015 */
+body {
+	font-family: 'Karla', sans-serif;
+	font-size:16px;
+
+}
+.App-header {
+background-color: #f2b342 !important;
+text-transform: uppercase;
+text-align: center;
+padding-bottom: 1.25em;
+}
+
+article {
+	padding-top:1.5em;
+}
+.alert-info {
+	padding:1.0em;
+}
+
+.badge {
+	margin-top: 3.0em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #FFF;
+	max-width: 100%;
+	float: left;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #21BDBF;
+  border-color:#21BDBF;
+}
+
+cite {
+	font-size:0.75em;
+	padding: 1.5em 0 1.5em 0;
+	margin-bottom:2.0em;
+}
+
+.container {
+	margin-bottom:3.0em;
+}
+
+div#header {
+	background-color: #f2b342;
+	width:auto;
+	text-align:center;
+	margin:0 1.5em;
+}
+
+header.row {
+	background-color: #f2b342;
+	width:auto;
+	text-align:center;
+	padding-bottom:1.5em;
+}
+
+
+.headshot {
+	-webkit-shape-outside: circle();
+}
+
+p {
+    text-align: left;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+		font-family: 'Karla';
+		margin: 0 auto;
+		max-width:768px;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 2.0em;
+  font-family: "Michroma", sans-serif;
+  color:#FFF;
+  text-align:center;
+  letter-spacing: 0.15em;
+  text-hyphen: auto;
+  -webkit-text-hyphen:auto;
+}
+
+h2 {
+	line-height:1.85em;
+	letter-spacing: 0.05em;
+}
+
+h2.homepage {
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 1.8em;
+  font-family: "Michroma", sans-serif;
+  color:#000;
+  text-align:left;
+  letter-spacing: 0.15em;
+  text-hyphen: auto;
+  -webkit-text-hyphen:auto;
+}
+
+h2 {
+	line-height:1.85em;
+	letter-spacing: 0.05em;
+}
+
+h2.tagline {
+  margin: 0 auto;
+  margin-top: 0.2em;
+  font-size: 0.85em;
+  font-family: "Michroma", sans-serif;
+  color:#FFF;
+  text-align:center;
+  letter-spacing: 0.22em;
+  line-height:1.5em;
+  }
+
+h3 {
+	font-size:1.25em;
+	font-family: "Michroma", sans-serif;
+	line-height:1.85em;
+	letter-spacing: 0.05em;
+}
+
+.heroImage {
+	margin:2.0em auto;
+	text-align:center;
+	/*max-width:768px;*/
+	display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-title {
+margin-bottom: 0.75rem;
+font-family: "Michroma", sans-serif;
+font-size:1.0em;
+}
+
+div#socialMedia {
+	text-align: center;
+	padding-top: 1.0em;
+	padding-right: 0;
+	padding-bottom: 2.0em;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-toggle {
+	display:none !important; /* hack, quick way to de-angular hamburger icon */
+}
+
+#socialMedia > a {
+	color:#FFFFFF;
+	padding:0.85em;
+}
+
+i {
+	color:#FFFFFF;
+}
+
+ul {
+	list-style:none !important;
+}
+
+ul > li > a {
+	color:#21BDBF; /*from color.adobe.com Compound */
+
+}
+
+li.websites {
+    padding-left: 0.5em;
+    text-indent: -.7em;
+}
+
+li.websites:before {
+    content: "• ";
+    color: #21BDBF; /* or whatever color you prefer */
+}
+
+#websiteList {
+	margin:0 auto;
+	max-width:960px;
+	padding:2.0em;
+}
+
+
+@media (max-width: 768px){
+
+.badge {
+	margin-top: 3.0em;
+	width: 100%;
+	text-align: left;
+	background-color: #FFF;
+	clear: left;
+}
+
+	h1 {
+	font-size:	1.3em;
+	}
+
+h2 {
+	font-size:1.5em;
+	line-height:1.55em;
+	letter-spacing: 0.05em;
+}
+
+.menu {
+		overflow-x:hidden;
+		position:relative;
+		left:0;
+	}
+
+	.menu-open {
+		left:210px;
+	}
+
+	.menu-open  .menu-side {
+		left:0;
+	}
+
+
+	.menu-side {
+		background-color:#333;
+		border-right:1px solid #000;
+		color:#000;
+		position:fixed;
+		top:0;
+		left:-231px;
+		width:210px;
+		height:100%;
+		padding:10px;
+	}
+
+.menu-side, .menu {
+	-webkit-transition:left 0.2s ease;
+	-moz-transition:left 0.2s ease;
+	transition:left 0.2s ease;
+}
+
+.nav-stacked > li > a {
+	font-family: "Michroma", sans-serif;
+	line-height:2.0em;
+	color:#FFF;
+}
+
+li.nav-side {
+	list-style-type:none;
+}
+
+.navbar-toggle .icon-bar {
+
+  background-color:#ffffff;
+}
+
+}
