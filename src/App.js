@@ -40,6 +40,7 @@ class App extends Component {
               </a>
             </div>
         </header>
+        
         <div>
             <h3>Rooftops of Nyack (Working Title)</h3>
               <p>
@@ -53,7 +54,7 @@ class App extends Component {
               </p>
                 <img src={painting} className="heroImage" alt="Oil Painting" />
 
-         
+
           </div>
         </div>
     );
