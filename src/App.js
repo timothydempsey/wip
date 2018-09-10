@@ -41,19 +41,19 @@ class App extends Component {
             </div>
         </header>
           <div>
-          <h3>A Boy and his Dog</h3>
-          <p>
-          This oil-on-canvas is stalled a little longer than I would like.
-          Estimated another 8 - 10 hours and I can call it complete.
-          </p>
-          <img src={painting} className="heroImage" alt="Oil Painting" />
+            <h3>Rooftops of Nyack (Working Title)</h3>
+              <p>
+              This study is the basis of a larger piece, which may or may not be executed in pastel on paper. I reserve the right to change my mind on the medium. May go with oil or acrylic paint on canvas.
+              </p>
+                <img src={sketch} className="heroImage" alt="Sketch" />
+             <h3>A Boy and his Dog</h3>
+              <p>
+              This oil-on-canvas is stalled a little longer than I would like.
+              Estimated another 8 - 10 hours and I can call it complete.
+              </p>
+                <img src={painting} className="heroImage" alt="Oil Painting" />
 
-          <h3>Rooftops of Nyack (Working Title)</h3>
-          <p>
-          This study is the basis of a larger piece, which may or may not be executed in pastel on paper. I reserve the right to change my mind on the medium. May go with oil or acrylic paint on canvas.
-          </p>
-          <img src={sketch} className="heroImage" alt="Sketch" />
-
+         
           </div>
         </div>
     );
