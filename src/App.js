@@ -40,7 +40,7 @@ class App extends Component {
               </a>
             </div>
         </header>
-          <div>
+        <div>
             <h3>Rooftops of Nyack (Working Title)</h3>
               <p>
               This study is the basis of a larger piece, which may or may not be executed in pastel on paper. I reserve the right to change my mind on the medium. May go with oil or acrylic paint on canvas.

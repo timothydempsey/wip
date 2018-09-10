@@ -61,11 +61,6 @@ header.row {
 	padding-bottom:1.5em;
 }
 
-
-.headshot {
-	-webkit-shape-outside: circle();
-}
-
 p {
     text-align: left;
     -webkit-hyphens: auto;
@@ -74,6 +69,7 @@ p {
 		font-family: 'Karla';
 		margin: 0 auto;
 		max-width:768px;
+		padding: 1.5em;
 }
 
 h1 {
