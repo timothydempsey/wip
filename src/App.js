@@ -8,6 +8,7 @@ import Twitter from 'react-icons/lib/fa/twitter';
 import Linkedin from 'react-icons/lib/fa/linkedin';
 import Pinterest from 'react-icons/lib/fa/pinterest-square';
 import Instagram from 'react-icons/lib/fa/instagram';
+import { FaBehance } from 'react-icons/lib/fa';
 import Email from 'react-icons/lib/fa/envelope';
 
 //import Footer from './Footer.js'
@@ -35,12 +36,15 @@ class App extends Component {
               <a href="https://www.instagram.com/timothyadempsey/" target="_blank" rel="noopener noreferrer">
                 <Instagram />
               </a>
+              <a href="https://www.behance.net/dempseystudio/" target="_blank" rel="noopener noreferrer">
+                <FaBehance />
+              </a>
               <a href="mailto:tim@dempseystudio.com">
                 <Email />
               </a>
             </div>
         </header>
-        
+
         <div>
             <h3>Rooftops of Nyack (Working Title)</h3>
               <p>
