@@ -46,6 +46,8 @@ class App extends Component {
         </header>
 
         <div>
+            <h2>News</h2>
+            <p>I am currently working on pieces for Artwalk 2019 in my new hometown. While I have not committed to the event at this writing, it quickly became a goal when we moved in last June, right at the kick-off of last year's Artwalk. Stay tuned for more updates on this.</p>
             <h3>Rooftops of Nyack (Working Title)</h3>
               <p>
               This study is the basis of a larger piece, which may or may not be executed in pastel on paper. I reserve the right to change my mind on the medium. May go with oil or acrylic paint on canvas.

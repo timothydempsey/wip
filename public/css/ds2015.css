@@ -102,6 +102,8 @@ h2.homepage {
 }
 
 h2 {
+	font-size:1.5em;
+	font-family: "Michroma", sans-serif;
 	line-height:1.85em;
 	letter-spacing: 0.05em;
 }
@@ -126,8 +128,7 @@ h3 {
 }
 
 .heroImage {
-	display: block;
-  max-width: 90%;
+	max-width: 90%;
 	margin: 0 2.0em auto;
 	text-align:center;
   height: auto;
